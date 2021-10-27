@@ -2,74 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products Store</title>
-    <style>
-        body {
-            text-align: center;
-        }
-        h1 {
-            border: 2px solid rgb(177, 101, 101);
-            width: 250px; 
-        }
-        .amazon {
-            padding: 5px;
-            border: dashed rgb(179, 15, 15) 2px;
-            background-color: bisque;
-            text-decoration: none;
-            font-weight: bold;
-            margin: 50px;
-        }
-        a {
-            margin: 20px;
-        }
-        button {
-            color: rgb(228, 21, 21);
-            background-color: aliceblue;
-            padding: 10px;
-            width: 150px;
-        }
-    </style>
+    <title>Xteam-8 computer shop</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/c7e5a70f91.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <a href="/product-one-details.html"><button><b>Product one</b></button></a>
-        <a href="/product-two-details.html"><button><b>Product Two</b></button></a>
-        <a href="/product-three-details.html"><button><b>Product Three</b></button></a>
-        <a href="/all-products.html"><button><b>All Products</b></button></a>
-    </nav> 
-    <br>
-    <br>
-    <hr>
-    <br>
-    <center><h1>Product One</h1></center>
-    <a href="https://www.amazon.eg/-/en/New-Balance-Liverpool-Sleeve-T-Shirt/dp/B078GMWD1K/ref=sr_1_2?dchild=1&keywords=adidas+liverpool+tshirt&qid=1631876230&s=fashion&sr=1-2-catcorr"><img src="/images/lp.webp" alt="liverpool New-Balance-Liverpool-Sleeve-T-Shirt"></a>
-    <br>
-    <br>
-    <a class="amazon"  href="https://www.amazon.eg/-/en/New-Balance-Liverpool-Sleeve-T-Shirt/dp/B078GMWD1K/ref=sr_1_2?dchild=1&keywords=adidas+liverpool+tshirt&qid=1631876230&s=fashion&sr=1-2-catcorr">By From Amazon</a>
-    <a class="amazon"  href="product-one-details.html">Product-Details</a>
-    <br>
-    <br>
-    <hr>
-    <center><h1>Product Two</h1></center>
-    <a href="https://www.amazon.eg/-/en/New-Balance-Liverpool-Shorts-2017-18/dp/B072M8VVSX/ref=sr_1_1?dchild=1&keywords=Liverpool+short&qid=1631894614&sr=8-1"><img src="/images/ls.webp" alt="liverpool New-Balance-Liverpool-Sleeve-T-Shirt"></a>
-    <br>
-    <br>
-    <a class="amazon"  href="https://www.amazon.eg/-/en/New-Balance-Liverpool-Shorts-2017-18/dp/B072M8VVSX/ref=sr_1_1?dchild=1&keywords=Liverpool+short&qid=1631894614&sr=8-1">By From Amazon</a>
-    <a class="amazon"  href="product-two-details.html">Product-Details</a>
-    <br>
-    <br>
-    <hr>
-    <center><h1>Product Three</h1></center>
-    <a href="https://www.amazon.eg/-/en/Adidas-Contrast-Stripe-Lace-Up-Football/dp/B089QB3MN8/ref=sr_1_11?crid=2W25W083K1Z2Y&dchild=1&keywords=adidas+shoes+men+football&qid=1631895303&sr=8-11"><img src="/images/as.jpg" alt="liverpool New-Balance-Liverpool-Sleeve-T-Shirt"></a>
-    <br>
-    <br>
-    <a class="amazon"  href="https://www.amazon.eg/-/en/Adidas-Contrast-Stripe-Lace-Up-Football/dp/B089QB3MN8/ref=sr_1_11?crid=2W25W083K1Z2Y&dchild=1&keywords=adidas+shoes+men+football&qid=1631895303&sr=8-11">By From Amazon</a>
-    <a class="amazon"  href="product-three-details.html">Product-Details</a>
-    <br>
-    <br>
-    <hr>
-
+    <!-- header -->
+    <div class="expand">
+        <div class="container">
+            <header class="header">
+                <nav>
+                    <div>
+                        <i class="fab fa-mixer"></i>
+                        <span>TEAM</span>
+                    </div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="product-1.html">Product#1</a></li>
+                        <li><a href="product-2.html">Product#2</a></li>
+                        <li><a href="product-3.html">Product#3</a></li>
+                        <li><a href="all-products.html">All Products</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <!-- header -->
+    <!-- products -->
+    <div class="container">
+        <main>
+            <div class="product-details">
+                <a href="product-1.html">
+                    <img src="images/lp.webp" alt="first bundle"/>
+                </a>
+                <div>
+                    <a href="https://www.amazon.eg/-/en/New-Balance-Liverpool-Sleeve-T-Shirt/dp/B078GMWD1K/ref=sr_1_2?dchild=1&keywords=adidas+liverpool+tshirt&qid=1631876230&s=fashion&sr=1-2-catcorr">Buy From Amazon</a>
+                    <a href="product-1.html">Product Details</a>
+                </div>
+            </div>
+            <div class="product-details">
+                <a href="product-2.html">
+                    <img src="images/ls.webp" alt="amd-ryzen-2200 bundle"/>
+                </a>
+                <div>
+                    <a href="https://www.amazon.eg/-/en/New-Balance-Liverpool-Shorts-2017-18/dp/B072M8VVSX/ref=sr_1_1?dchild=1&keywords=Liverpool+short&qid=1631894614&sr=8-1">Buy From Amazon</a>
+                    <a href="product-2.html">Product Details</a>
+                </div>
+            </div>
+            <div class="product-details">
+                <a href="product-3.html">
+                    <img src="images/as.jpg" alt="amd-ryzen-3200 bundle"/>
+                </a>
+                <div>
+                    <a href="https://www.amazon.eg/-/en/Adidas-Contrast-Stripe-Lace-Up-Football/dp/B089QB3MN8/ref=sr_1_11?crid=2W25W083K1Z2Y&dchild=1&keywords=adidas+shoes+men+football&qid=1631895303&sr=8-11">Buy From Amazon</a>
+                    <a href="product-3.html">Product Details</a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- products -->
 </body>
 </html>
